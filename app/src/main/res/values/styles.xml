@@ -291,6 +291,17 @@
 
 
 
+
+    <!--New: Scroll view  starts-->
+    <style name="i_scrollview">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+    </style>
+    <!-- scroll view Ends-->
+
+
     <!--Card View Start-->
     <style name="cardView">
         <item name="android:background">@color/dullWhileOverlay</item>

@@ -42,16 +42,6 @@ public class CRFAActivity extends AppCompatActivity {
         bi = DataBindingUtil.setContentView(this, R.layout.activity_a);
         bi.setCallback(this);
 
-//        setTitle(R.string.f9aHeading);
-        List<String> Dieascodelist = null;
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>
-                (this, android.R.layout.select_dialog_item, Dieascodelist);
-        bi.cra11.setThreshold(1); //will start working from first character
-        bi.cra11.setAdapter(adapter);
-
-        bi.cra11b.setThreshold(1); //will start working from first character
-        bi.cra11b.setAdapter(adapter);
 
 
         setupViews();
