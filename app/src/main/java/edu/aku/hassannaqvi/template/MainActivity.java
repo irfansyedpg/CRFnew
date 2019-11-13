@@ -15,7 +15,7 @@ import edu.aku.hassannaqvi.template.core.AndroidDatabaseManager;
 import edu.aku.hassannaqvi.template.core.DatabaseHelper;
 import edu.aku.hassannaqvi.template.core.MainApp;
 import edu.aku.hassannaqvi.template.databinding.ActivityMainBinding;
-import edu.aku.hassannaqvi.template.ui.CRFAActivity;
+import edu.aku.hassannaqvi.template.ui.SampleActivity;
 
 import edu.aku.hassannaqvi.template.ui.DesingActivity;
 import edu.aku.hassannaqvi.template.ui.SyncActivity;
@@ -151,17 +151,22 @@ public class MainActivity extends AppCompatActivity {
 
     public void openForm(int type) {
 
+        // add here your activity button click
+
+        int a=type;
         Class cc=null;
 
         if (type == 1) {
-            cc = CRFAActivity.class;
+            cc = SampleActivity.class;
         } else if (type == 2) {
 
+            cc= SampleActivity.class;
         } else {
-            cc = CRFAActivity.class;
+            cc = SampleActivity.class;
         }
+
         if (sharedPref.getString("tagName", null) != "" && sharedPref.getString("tagName", null) != null) {
-            startActivity(new Intent(MainActivity.this, cc).putExtra(MainApp.formType, selectFormType(type)));
+            startActivity(new Intent(MainActivity.this, cc));
         } else {
             Util.showTagDialog(this);
         }

@@ -1,13 +1,20 @@
 package edu.aku.hassannaqvi.template.validation;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.Locale;
 
 import static android.content.Context.MODE_PRIVATE;
 
@@ -32,6 +39,41 @@ public abstract class UIirfan {
 
         int cblable = prefs.getInt("cbtxt", 18); //0 is the default value.
         int edlable = prefs.getInt("edtxt", 18); //0 is the default value.
+
+        int txtType = prefs.getInt("type", 1); //0 is the default value.
+
+        // change language things......................
+
+
+
+
+
+        if(txtType==2) {
+            String lang = "ur";
+            String country = "PK";
+
+            Locale locale = new Locale(lang, country);
+            Locale.setDefault(locale);
+            Configuration config = new Configuration();
+            config.locale = locale;
+            mcn.getResources().updateConfiguration(config, mcn.getResources().getDisplayMetrics());
+        }
+        else
+        {
+            String lang = "en";
+            String country = "US";
+            Locale locale = new Locale(lang, country);
+            Locale.setDefault(locale);
+            Configuration config = new Configuration();
+            config.locale = locale;
+            mcn.getResources().updateConfiguration(config, mcn.getResources().getDisplayMetrics());
+        }
+
+
+
+
+
+
         try {
             if (v instanceof ViewGroup) {
                 ViewGroup vg = (ViewGroup) v;

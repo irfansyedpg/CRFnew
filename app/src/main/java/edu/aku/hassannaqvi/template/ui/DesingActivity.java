@@ -70,6 +70,10 @@ public class DesingActivity extends AppCompatActivity implements CompoundButton.
         bi.rbEdLarage.setOnCheckedChangeListener(this);
         bi.rbEdXlarage.setOnCheckedChangeListener(this);
 
+
+        bi.rbEnglish.setOnCheckedChangeListener(this);
+        bi.rbUrdu.setOnCheckedChangeListener(this);
+
     }
 
 
@@ -262,6 +266,19 @@ public class DesingActivity extends AppCompatActivity implements CompoundButton.
 
             bi.edexp.setText("Editext Size extra large");
         }
+
+
+        else if(buttonView==bi.rbEnglish && bi.rbEnglish.isChecked())
+        {
+
+            editor.putInt("type", 1);
+        }
+        else if(buttonView==bi.rbUrdu && bi.rbUrdu.isChecked())
+        {
+            editor.putInt("type", 2);
+        }
+
+
 // txt label ends
 
 

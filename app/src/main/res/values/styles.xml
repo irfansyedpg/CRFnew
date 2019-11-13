@@ -145,7 +145,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">20sp</item>
         <item name="android:digits">abcdefghijklmnopqrstuvwxyz
-            ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ
         </item>
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
@@ -180,16 +180,21 @@
 
 
     <style name="checkbox">
+
+
+
+
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">24sp</item>
-        <item name="android:typeface">serif</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:clickable">true</item>
-        <item name="android:layout_marginBottom">1dp</item>
-        <item name="android:foreground">?android:attr/selectableItemBackground</item>
-        <item name="android:padding">10dp</item>
-        <item name="android:background">@color/white</item>
-        <item name="android:elevation">1dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:radius">2dp</item>
     </style>
 
     <style name="CustomShowcaseTheme" parent="ShowcaseView.Light">
@@ -307,8 +312,8 @@
         <item name="android:background">@color/dullWhileOverlay</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">5dp</item>
-        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_margin">5dp</item>
+
         <item name="cardCornerRadius">5dp</item>
         <item name="cardElevation">2dp</item>
     </style>

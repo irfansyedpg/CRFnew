@@ -37,7 +37,7 @@
             android:name="edu.aku.hassannaqvi.template.ui.LoginActivity"
             android:theme="@style/AppTheme1"></activity>
         <activity android:name="edu.aku.hassannaqvi.template.ui.SyncActivity" />
-        <activity android:name="edu.aku.hassannaqvi.template.ui.CRFAActivity" />
+        <activity android:name="edu.aku.hassannaqvi.template.ui.SampleActivity" />
         <activity android:name="edu.aku.hassannaqvi.template.ui.DesingActivity" />
 
 
