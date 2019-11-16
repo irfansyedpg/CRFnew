@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
 
         android:id="@+id/fullscreen_content"
-        tools:context="edu.aku.hassannaqvi.casi_2018.ui.mainUI.SplashscreenActivity">
+        tools:context="edu.aku.dmu.casi_2018.ui.mainUI.SplashscreenActivity">
 
 
         <RelativeLayout

@@ -11,7 +11,7 @@
 
         <variable
             name="callback"
-            type="edu.aku.hassannaqvi.kmc_screening.ui.CRFAActivity" />
+            type="edu.aku.dmu.kmc_screening.ui.CRFAActivity" />
     </data>
 
 
@@ -119,9 +119,10 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/cra02"
                         android:inputType="number"
-                        app:maxValue="9"
-                        android:maxLength="1"
+                        app:maxValue="99999999999999"
                         app:minValue="0"
+                        android:maxLength="9"
+
                         app:type="range" />
 
                 </LinearLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.aku.hassannaqvi.kmc_screening">
+    package="edu.aku.dmu.kmc_screening">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -17,14 +17,14 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
-        android:name=".core.MainApp"
+        android:name="edu.aku.dmu.kmc_screening.core.MainApp"
         android:allowBackup="true"
         android:icon="@drawable/uncolor"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.SplashscreenActivity">
+        <activity android:name="edu.aku.dmu.kmc_screening.ui.SplashscreenActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,21 +34,21 @@
 
         </activity>
         <activity
-            android:name=".ui.LoginActivity"
+            android:name="edu.aku.dmu.kmc_screening.ui.LoginActivity"
             android:theme="@style/AppTheme1"></activity>
-        <activity android:name=".ui.SyncActivity" />
-        <activity android:name=".ui.CRFBActivity" />
-        <activity android:name=".ui.CRFAActivity" />
-        <activity android:name=".ui.CRFCActivity" />
-        <activity android:name=".ui.DesingActivity" />
+        <activity android:name="edu.aku.dmu.kmc_screening.ui.SyncActivity" />
+        <activity android:name="edu.aku.dmu.kmc_screening.ui.CRFBActivity" />
+        <activity android:name="edu.aku.dmu.kmc_screening.ui.CRFAActivity" />
+        <activity android:name="edu.aku.dmu.kmc_screening.ui.CRFCActivity" />
+        <activity android:name="edu.aku.dmu.kmc_screening.ui.DesingActivity" />
 
 
-        <activity android:name=".core.AndroidDatabaseManager" />
-        <activity android:name=".MainActivity">
+        <activity android:name="edu.aku.dmu.kmc_screening.core.AndroidDatabaseManager" />
+        <activity android:name="edu.aku.dmu.kmc_screening.MainActivity">
 
         </activity>
 
-        <activity android:name=".ui.EndingActivity"></activity>
+        <activity android:name="edu.aku.dmu.kmc_screening.ui.EndingActivity"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

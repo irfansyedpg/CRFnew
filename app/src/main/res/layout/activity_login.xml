@@ -9,7 +9,7 @@
 
         <variable
             name="callback"
-            type="edu.aku.hassannaqvi.kmc_screening.ui.LoginActivity" />
+            type="edu.aku.dmu.kmc_screening.ui.LoginActivity" />
     </data>
 
 
