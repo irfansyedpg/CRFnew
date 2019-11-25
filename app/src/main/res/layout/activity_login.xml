@@ -9,7 +9,11 @@
 
         <variable
             name="callback"
+<<<<<<< HEAD
             type="edu.aku.dmu.kmc_screening.ui.LoginActivity" />
+=======
+            type="edu.aku.hassannaqvi.template.ui.LoginActivity" />
+>>>>>>> origin/master
     </data>
 
 

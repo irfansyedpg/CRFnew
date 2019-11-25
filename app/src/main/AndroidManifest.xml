@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="edu.aku.dmu.kmc_screening">
+=======
+    package="edu.aku.hassannaqvi.template">
+>>>>>>> origin/master
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -17,14 +21,22 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
+<<<<<<< HEAD
         android:name="edu.aku.dmu.kmc_screening.core.MainApp"
+=======
+        android:name="edu.aku.hassannaqvi.template.core.MainApp"
+>>>>>>> origin/master
         android:allowBackup="true"
         android:icon="@drawable/uncolor"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name="edu.aku.dmu.kmc_screening.ui.SplashscreenActivity">
+=======
+        <activity android:name="edu.aku.hassannaqvi.template.ui.SplashscreenActivity">
+>>>>>>> origin/master
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,6 +46,7 @@
 
         </activity>
         <activity
+<<<<<<< HEAD
             android:name="edu.aku.dmu.kmc_screening.ui.LoginActivity"
             android:theme="@style/AppTheme1"></activity>
         <activity android:name="edu.aku.dmu.kmc_screening.ui.SyncActivity" />
@@ -49,6 +62,21 @@
         </activity>
 
         <activity android:name="edu.aku.dmu.kmc_screening.ui.EndingActivity"></activity>
+=======
+            android:name="edu.aku.hassannaqvi.template.ui.LoginActivity"
+            android:theme="@style/AppTheme1"></activity>
+        <activity android:name="edu.aku.hassannaqvi.template.ui.SyncActivity" />
+        <activity android:name="edu.aku.hassannaqvi.template.ui.SampleActivity" />
+        <activity android:name="edu.aku.hassannaqvi.template.ui.DesingActivity" />
+
+
+        <activity android:name="edu.aku.hassannaqvi.template.core.AndroidDatabaseManager" />
+        <activity android:name="edu.aku.hassannaqvi.template.MainActivity">
+
+        </activity>
+
+        <activity android:name="edu.aku.hassannaqvi.template.ui.EndingActivity"></activity>
+>>>>>>> origin/master
 
         <meta-data
             android:name="preloaded_fonts"

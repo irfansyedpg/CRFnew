@@ -14,7 +14,11 @@ android {
         versionProps.store(versionPropsFile.newWriter(), null)
 
         defaultConfig {
+<<<<<<< HEAD
             applicationId "edu.aku.dmu.kmc_screening"
+=======
+            applicationId "edu.aku.hassannaqvi.template"
+>>>>>>> origin/master
             minSdkVersion 21
             targetSdkVersion 28
             versionCode code

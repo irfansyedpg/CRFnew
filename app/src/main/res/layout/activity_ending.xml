@@ -9,7 +9,11 @@
 
         <variable
             name="callback"
+<<<<<<< HEAD
             type="edu.aku.dmu.kmc_screening.ui.EndingActivity" />
+=======
+            type="edu.aku.hassannaqvi.template.ui.EndingActivity" />
+>>>>>>> origin/master
     </data>
 
     <LinearLayout
@@ -39,7 +43,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz"
-                    android:hint="@string/other"
+                    android:hint="other"
                     android:maxLength="40"
                     android:visibility="gone" />
 
@@ -96,23 +100,7 @@
                         android:layout_marginBottom="1dp"
                         android:text="Other" />
 
-                    <!--<RadioButton
-                        android:id="@+id/istatush"
 
-                        style="@style/radiobutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="1dp"
-                        android:text="@string/istatush" />
-
-                    <RadioButton
-                        android:id="@+id/istatus88"
-
-                        style="@style/radiobutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="1dp"
-                        android:text="@string/other" />-->
 
                 </RadioGroup>
 

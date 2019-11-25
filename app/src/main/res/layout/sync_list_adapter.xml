@@ -9,7 +9,11 @@
 
         <variable
             name="callback"
+<<<<<<< HEAD
             type="edu.aku.dmu.kmc_screening.adapter.SyncListAdapter" />
+=======
+            type="edu.aku.hassannaqvi.template.adapter.SyncListAdapter" />
+>>>>>>> origin/master
     </data>
 
     <android.support.v7.widget.CardView
